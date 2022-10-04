@@ -1,0 +1,79 @@
+.container{
+   width: 1300px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+body{
+   background-color: rgb(176, 37, 12);
+}
+.js-list{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+li{
+   border-radius: 20px;
+   background-color: rgb(141, 135, 141);
+   width: 300px;
+   margin-bottom: 30px;
+}
+img{
+   width: 300px;
+   height: 300px;
+}
+.fox{
+   font-family: 'Arial';
+   text-align: center;
+   margin-bottom: 40px;
+}
+h3{
+   font-family: 'Arial';
+   text-align: center;
+   margin: 0px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   height: 40px;
+}
+p{
+   font-family: 'Arial';
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   height: 40px;
+   overflow: auto;
+   margin: 0px;
+   margin-top: 8px;
+   margin-bottom: 15px;
+}
+span{
+   text-align: center;
+   display: block;
+}
+strong{
+   text-align: center;
+   display: block;
+   margin-top: 10px;
+   margin-bottom: 14px;
+}
+
+select{
+   margin-bottom: 30px;
+   padding: 5px 8px;
+   width: 100px;
+}
+
+
+@media only screen and (max-width: 576px) {
+   .js-list{
+      text-align: center;
+      margin: 0px auto;
+   }
+   li{
+      margin: 0px auto;
+      margin-bottom: 40px;
+   }
+}
