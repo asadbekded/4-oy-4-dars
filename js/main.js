@@ -161,4 +161,24 @@ elSelect1.addEventListener('change', function(evt){
    })
 })
 
+let modeBtn = document.querySelector('.js-mod')
+var theme = false;
 
+modeBtn.addEventListener('click', function () {
+   console.log((theme = !theme));
+   window.localStorage.setItem('theme', theme ? 'dark' : 'light')
+   changeThem()
+})
+
+function changeThem () {
+   if(window.localStorage.getItem('theme') == 'dark'){
+      document.body.style.backgroundColor = '#222'
+      modeBtn.setAttribute('class', 'btn btn-danger')
+      modeBtn.textContent = 'Red';
+   }else{
+      document.body.style.backgroundColor = '#b0250c'
+      modeBtn.textContent = 'Dark';
+      modeBtn.setAttribute('class', 'btn btn-dark')
+   }
+}
+changeThem()

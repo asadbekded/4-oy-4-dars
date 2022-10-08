@@ -4,9 +4,7 @@
    margin: 0px auto;
    padding: 0px 20px;
 }
-body{
-   background-color: rgb(176, 37, 12);
-}
+
 .js-list{
    display: flex;
    align-items: flex-start;
@@ -30,6 +28,7 @@ img{
    font-family: 'Arial';
    text-align: center;
    margin-bottom: 40px;
+   color: aqua;
 }
 h3{
    font-family: 'Arial';
@@ -67,7 +66,6 @@ select{
    width: 100px;
    margin-right: 30px;
 }
-
 
 @media only screen and (max-width: 576px) {
    .js-list{
