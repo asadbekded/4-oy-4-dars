@@ -114,7 +114,7 @@ var films = [
 		overview:
 			"Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson 'Kingpin' Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
 		release_date: 1544140800,
-		genres: ['Action', 'Adventure', 'Animation', 'Science Fiction', 'Comedy'],
+		genres: ['Action', 'Adventure', 'Animation'],
 	},
 	{
 		id: '157433',

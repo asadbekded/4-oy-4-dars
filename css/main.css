@@ -14,7 +14,7 @@
    padding: 0px;
    list-style: none;
 }
-li{
+ul > li{
    border-radius: 20px;
    background-color: rgb(141, 135, 141);
    width: 300px;
@@ -30,13 +30,13 @@ img{
    margin-bottom: 40px;
    color: aqua;
 }
-h3{
+h4{
    font-family: 'Arial';
    text-align: center;
    margin: 0px;
    margin-top: 8px;
    margin-bottom: 8px;
-   height: 40px;
+   height: 50px;
 }
 p{
    font-family: 'Arial';
@@ -66,13 +66,52 @@ select{
    width: 100px;
    margin-right: 30px;
 }
+ul > li > button{
+   margin-left: 43px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+ol{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 25px;
+}
+ol > li {
+   background-color: bisque;
+   padding: 3px 4px 3px 10px;
+   border-radius: 10px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+ol > li > button{
+   margin-left: 12px;
+}
+/* .js-modal{
+   position: fixed;
+   top: 0px;
+   display: none;
+   align-items: center;
+   justify-content: center;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   background-color: rgba(0, 0, 0, 0.5); 
+   display: none;
+}
+.modal-open{
+   display: block;
+} */
 
 @media only screen and (max-width: 576px) {
    .js-list{
       text-align: center;
       margin: 0px auto;
    }
-   li{
+   ul >li{
       margin: 0px auto;
       margin-bottom: 40px;
    }
